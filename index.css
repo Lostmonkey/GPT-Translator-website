@@ -34,7 +34,10 @@ body {
 .top-nav {
     width: 100%;
     height: 64px;
-    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .top-nav-logo {
@@ -47,7 +50,7 @@ body {
 .lang {
     width: 80px;
     height: 46px;
-    background: #4E9F3D;
+    background: #795548;
     border-radius: 23px;
     padding: 8px 10px;
     box-sizing: border-box;
@@ -69,7 +72,7 @@ body {
 
 .lang .lang-active {
     background: #FFFFFF;
-    color: #4E9F3D;
+    color: #795548;
     opacity: 1;
 }
 
@@ -133,7 +136,7 @@ body {
 .banner .experience-btn {
     width: 151px;
     height: 49px;
-    background: #4E9F3D;
+    background: #795548;
     border-radius: 6px;
     font-size: 18px;
     font-weight: 500;
@@ -145,7 +148,7 @@ body {
 }
 
 .banner .experience-btn:hover {
-    background: #338d20;
+    background: #684539;
 }
 
 .content-box {
@@ -236,6 +239,7 @@ body {
     display: flex;
     align-items: baseline;
     margin-bottom: 36px;
+    font-size: 18px;
 }
 
 .introduce-item  img {
@@ -288,7 +292,7 @@ body {
 }
 
 .part2-steps {
-    border: 1px solid #D8E9A8;
+    border: 1px solid #795548;
     border-radius: 9px;
     padding: 8px;
     box-sizing: border-box;
@@ -344,11 +348,12 @@ body {
 }
 
 .FAQS-item:hover div{
-    color: #4E9F3D;
+    color: #795548;
+    color: #795548;
 }
 
 .FAQS-item-box-active div {
-    color: #4E9F3D;
+    color: #795548;
 }
 
 .FAQS-item-box-active .FAQS-item{
@@ -371,7 +376,7 @@ body {
 .FAQS-detail .dot {
     width: 6px;
     height: 6px;
-    background: #4E9F3D;
+    background: #795548;
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 4px;
@@ -381,15 +386,14 @@ body {
     margin-bottom: 24px;
     flex: 1;
     line-height: 1;
-    color: #4E9F3D;
+    color: #795548;
     font-size: 16px;
 }
 
 .platform {
     width: 100%;
     height: 630px;
-    background: url("./images/platform-bg.png") center center no-repeat;
-    background-size: cover;
+    background-color: #F7F7F7;
 }
 
 .platform-title {
