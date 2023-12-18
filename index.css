@@ -125,6 +125,7 @@ body {
     padding: 0 24px;
     box-sizing: border-box;
     margin-top: 60px;
+    text-decoration: none;
 }
 
 .banner .btn img {
@@ -134,6 +135,7 @@ body {
 }
 
 .banner .experience-btn {
+    display: inline-block;
     width: 151px;
     height: 49px;
     background: #795548;
@@ -145,6 +147,7 @@ body {
     text-align: center;
     margin-top: 20px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .banner .experience-btn:hover {
